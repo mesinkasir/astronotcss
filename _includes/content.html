@@ -1,0 +1,25 @@
+<div class="cards">
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h3 class="post-list-heading">{{ page.list_title }}</h3>
+    {%- endif -%}
+	
+
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+<div class="card">
+<img alt="{{ post.title }}" width="100%" src="{{ post.cover }}"/>
+<div class="card-content">
+	<h3><a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+			</a></h3>		
+<p>{{ post.description | escape }} </p><p>Baca <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }} →</a></p>
+{%- if site.show_excerpts -%}
+{{ post.excerpt }}
+{%- endif -%}		
+</div>	
+</div>
+{%- endfor -%}
+  {%- endif -%}
+	</div>

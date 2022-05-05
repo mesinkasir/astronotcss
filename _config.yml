@@ -1,0 +1,32 @@
+title: Astronot 👩‍🚀
+author:
+  name: Axcora
+  email: axcora@gmail.com
+description: CSS modern terbaru untuk membangun website dengan cepat.
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# dablogger date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+dablogger:
+  date_format: "%b %-d, %Y"
+
+ # Home page header menu
+home:
+  cover: https://astronot.axcora.com/img/ASTRONOTCSS.jpg
+  title: Hey.. 👋 selamat datang di astronot css
+  desc: Ini adalah solusi css framework terbaru untuk kamu gunakan dalam kebutuhan membuat website dengan cepat dan dengan dukungan desain yang unik tampilan kekinian serta kestabilan membuat website dan blog mu penuh tenaga serta sangat cepat 🚀 !!.Astronot css adalah pyur css tanpa ada js sehingga dengan konsep ini akan memberikan sensasi kecepatan luar biasa untuk situs mu. 
+
+  # Header menu external link
+menu:
+    menu2: Doc
+    menu3: Emoji
+    menuurl2: https://astronot.axcora.com/doc.html
+    menuurl3: https://astronot.axcora.com/emoji.html
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag

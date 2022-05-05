@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="cardes">
+<div class="carde"> 
+<img alt="{{ page.description | escape }}" src="{{ page.cover | escape }}"/>
+<div class="card-content"> 
+  <h1><strong><a href="{{ page.url }}">{{ page.title | escape }}</a></strong></h1>
+  <h3>{{ page.description | escape }}</h3>
+</header>
+<div class="card-content post-content e-content" itemprop="articleBody">
+    {{ content }}
+</div>
+</div>
+
+
+  <a class="button" href="{{ page.url | relative_url }}" hidden></a>
+</div>
+</div>
+</article>
