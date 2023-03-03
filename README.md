@@ -8,7 +8,7 @@ Get started
 
 insert this code on your template 
 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/astronot/css/astronot.min.css"/>`
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/astronot@1.0.1-sv/astronot.min.css"/>`
 
 before `</head>`
 
