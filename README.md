@@ -22,6 +22,8 @@ run lastest version
 
 Visit now on [https://astronot.axcora.com →](https://astronot.axcora.com)
 
+Starter collection project: [https://astronot.axcora.com/starter.html](https://astronot.axcora.com/starter.html)
+
 Download starter for jekyll [https://github.com/mesinkasir/astronotcss/tree/gh-pages →](https://github.com/mesinkasir/astronotcss/tree/gh-pages)
 
 Demo jekyll starter [https://mesinkasir.github.io/astronotcss →](https://mesinkasir.github.io/astronotcss/)
